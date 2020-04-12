@@ -13,6 +13,8 @@ const forecast = (cordslat, cordslon, callback) => {
             callback(undefined, {
                 wind: data2.current.wind_speed,
                 temp: data2.current.temperature,
+                hum: data2.current.humidity,
+                winddir: data2.current.wind_dir,
                 wdes: data2.current.weather_descriptions[0]
             })
         }

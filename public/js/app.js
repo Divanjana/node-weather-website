@@ -15,7 +15,7 @@ weatherForm.addEventListener('submit', (e) => {
                 para1.textContent = data.error
             }else{
                 para1.textContent = data.location
-                para2.textContent = "Wind is " + data.forecast.wind + " " + "and Temperture is "+ data.forecast.temp + " Therefore Weather possibility is " + data.forecast.wdes;
+                para2.textContent = "Wind is " + data.forecast.wind + " " + "and Temperture is "+ data.forecast.temp + " wind direction is "+ data.forecast.winddir + " humidity is "+ data.forecast.hum + " Therefore Weather possibility is " + data.forecast.wdes;
             }
         })
     })
