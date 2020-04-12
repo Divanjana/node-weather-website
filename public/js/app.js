@@ -1,4 +1,4 @@
-console.log("THIS IS CONSOLE");
+// console.log("THIS IS CONSOLE");
 const weatherForm = document.querySelector('form')
 const search = document.querySelector('input')
 const para1 = document.querySelector('#msg1')
